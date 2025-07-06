@@ -138,6 +138,8 @@ export default function ForgotPasswordScreen() {
                 keyboardType="email-address"
                 autoCapitalize="none"
                 autoComplete="email"
+                selectionColor="#8B5CF6"
+                cursorColor="#8B5CF6"
               />
             </View>
           </View>
