@@ -179,6 +179,8 @@ export default function DocumentVaultScreen() {
 
   const recentActivity = [...documents, ...notes.map(note => ({
     ...note,
+    id: `note-${note.id}`, // Prefix note IDs to ensure uniqueness
+    name: note.title,
     type: 'NOTE',
     size: `${note.content.length} chars`,
     uploadDate: note.createdDate,
