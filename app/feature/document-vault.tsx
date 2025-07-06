@@ -10,23 +10,7 @@ import {
   Modal,
   FlatList,
 } from 'react-native';
-import {
-  ArrowLeft,
-  Search,
-  Upload,
-  MoreVertical,
-  Eye,
-  Trash2,
-  Share,
-  FolderOpen,
-  FileText,
-  Plus,
-  File,
-  GraduationCap,
-  Award,
-  Shield,
-  Archive,
-} from 'lucide-react-native';
+import { ArrowLeft, Search, Upload, MoveVertical as MoreVertical, Eye, Trash2, Share, FolderOpen, FileText, Plus, File, GraduationCap, Award, Shield, Archive } from 'lucide-react-native';
 import { router } from 'expo-router';
 import * as DocumentPicker from 'expo-document-picker';
 
